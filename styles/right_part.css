@@ -1,0 +1,58 @@
+.education,
+.languages,
+.skills,
+.code_example {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.design_line::before {
+    content: '';
+    display: block;
+    width: 600px;
+    height: 8px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: linear-gradient(to right, #a5a5a5 50%, #000000 50%);
+}
+
+.education_title,
+.lang_title,
+.skills_title,
+.codeex_title {
+    font-size: 25px;
+    font-family: var(--font-family-B);
+}
+
+.title-right {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.education_place,
+.lang_ru_en {
+    margin-left: 30px;
+}
+
+.university {
+    font-size: 25px;
+    font-family: var(--font-family-S-B);
+}
+
+.specialist {
+    font-size: 20px;
+    font-family: var(--font-family-S-B);
+}
+
+.lang_ru_en {
+    font-size: 22px;
+    font-family: var(--font-family-S-B);
+}
+
+.about_skills {
+    margin-left: 30px;
+    font-size: 22px;
+    font-family: var(--font-family-S-B);
+}

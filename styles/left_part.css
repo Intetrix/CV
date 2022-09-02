@@ -1,0 +1,110 @@
+
+.cv_content {
+    position: relative;
+}
+
+.cv_photo {
+    width: 400px;
+    height: 600px;
+}
+
+.cv_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2em;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.cv_name_about {
+    font-size: 40px;
+    font-family: var(--font-family-B);
+}
+
+.cv_info_about {
+    font-size: 20px;
+    font-family: var(--font-family-L);
+}
+
+.cv_items {
+    position: relative;
+}
+
+.item {
+    position: relative;
+}
+
+.item::after {
+    content: '';
+    display: block;
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-40%) skewY(-20deg);
+    transform-origin: right;
+    background: black;
+}
+
+.about_text,
+.contact_text {
+    color: white;
+    font-size: 30px;
+    font-family: var(--font-family-S-B);
+}
+
+.cv_about_me {
+    position: absolute;
+    top: -110px;
+    left: 30px;
+    z-index: 3;
+}
+
+.cv_contact {
+    top: 230px;
+    left: 30px;
+    position: absolute;
+    z-index: 3;
+}
+
+.text_about_me {
+    text-align: justify;
+    margin-right: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: var(--font-family-L);
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.icon_name:hover {
+    transition: .3s;
+    border-color: white;
+}
+
+.icon_name {
+    color: white;
+    font-size: 20px;
+    font-family: var(--font-family-S-B);
+    margin-top: 15px;
+    margin-left: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.icon_and_text {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon_image {
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 999px;
+}
